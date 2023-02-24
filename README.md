@@ -21,9 +21,7 @@ To download it, [click](https://developer.concordium.software/en/mainnet/net/ins
 First, rename the cargo-concordium-v.x.x file to cargo-concordium. <br />
 The tool should be placed in your PATH. <br />
 
-![PathEnvi](https://github.com/tapas-code/Concordium-Task-1/Screenshots/PathEnvi.png)
-
-![CheckPoint0](https://github.com/tapas-code/Concordium-Task-1/Screenshots/CheckPoint.png)
+![CheckPoint0](Screenshots/CheckPoint0.png)
 
 ##   Install Concordium Client
 
@@ -34,14 +32,14 @@ Concordium-client is a command line tool that is used in the tutorials for deplo
 Use the following command to see if concordium-client can be launched: <br />
 _concordium-client --help_
 
-![CheckPoint](https://github.com/tapas-code/Concordium-Task-1/Screenshots/CheckPoint.png)
+![CheckPoint](Screenshots/CheckPoint.png)
 
 ##   Check the installation and connect to the testnet node
 
 You can connect to the public node with the following command:<br />
 _concordium-client consensus status --grpc-port 10000 --grpc-ip node.testnet.concordium.com_
 
-![PublicNode](https://github.com/tapas-code/Concordium-Task-1/Screenshots/PublicNode.png)
+![PublicNode](Screenshots/PublicNode.png)
 
 
 ## Setting up Wallet
@@ -58,12 +56,12 @@ To obtain 2000 CCDs for testing, use your account's Testnet faucet.
 Click on the export button in the wallet which should download a <public key>.export file to your downloads folder
 
 <p float="left">
-  <img src="https://github.com/tapas-code/Concordium-Task-1/Screenshots/TestnetWallet.png" height="450">
-  <img src="https://github.com/tapas-code/Concordium-Task-1/Screenshots/ExportKeys.png" height="450">
+  <img src="Screenshots/TestnetWallet.png" height="450">
+  <img src="Screenshots/ExportKeys.png" height="450">
 </p>
 
 
 Now import the key using terminal by using the command shown below <br />
 _concordium-client config account import <YOUR PUBLIC ADDRESS.export> --name <Your-Wallet-Name>_
   
-<img src="https://github.com/tapas-code/Concordium-Task-1/Screenshots/ImportKeys.png">
+<img src="Screenshots/ImportKeys.png">
