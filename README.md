@@ -5,7 +5,7 @@ Setting up the development environment.
 
 You must first install rustup, which sets up Cargo and Rust on your PC. Install rustup for your platform by going to [Rustup](https://rustup.rs/)
 
-![RUST_Install](https://github.com/tapas-code/Concordium-Task-1/Screenshots/RUST_Install.png)
+![RUST_Install](Screenshots/RUST_Install.png)
 
 You should see something like the screenshot below after successfully installing Rust and Cargo on your system.
 
