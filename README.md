@@ -4,12 +4,9 @@ Setting up the development environment.
 ##   Install Rust & Cargo
 
 You must first install rustup, which sets up Cargo and Rust on your PC. Install rustup for your platform by going to [Rustup](https://rustup.rs/)
-
-![RUST_Install](Screenshots/RUST_Install.png)
-
 You should see something like the screenshot below after successfully installing Rust and Cargo on your system.
 
-![RUST_Installed](https://github.com/tapas-code/Concordium-Task-1/Screenshots/RUST_Installed.png)
+![RUST_Install](Screenshots/RUST_Install.png)
 
 ##   Install Wasm
 
@@ -17,7 +14,7 @@ Installing Wasm, which will be used for building contracts, requires copying and
 
 _rustup target add wasm32-unknown-unknown_
 
-![WASM_Install](https://github.com/tapas-code/Concordium-Task-1/Screenshots/WASM_Install.png)
+![WASM_Install](Screenshots/WASM_Install.png)
 
 Installing the Concordium software package is the next step. <br />
 To download it, [click](https://developer.concordium.software/en/mainnet/net/installation/downloads-testnet.html#cargo-concordium-testnet) on this link. <br />
