@@ -65,3 +65,7 @@ Now import the key using terminal by using the command shown below <br />
 _concordium-client config account import <YOUR PUBLIC ADDRESS.export> --name <Your-Wallet-Name>_
   
 <img src="Screenshots/ImportKeys.png">
+  
+## Concordium mainnet Address
+  
+4qF7MCiS6FDhTYhX2KecqPjHr2A4b28Z1gmLUb6THr3AmG6Pe6
